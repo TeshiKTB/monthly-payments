@@ -12,4 +12,4 @@ This backend is designed with RESTful microservices architecture for managing th
 
 ## Entity Relationship Diagram (ERD)
 
-![ERD Image](/monthlyPaymentsERD.png)
+![ERD Image](./monthlyPaymentsERD.png)
