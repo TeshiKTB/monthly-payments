@@ -1,14 +1,12 @@
 # Monthly Payments - Backend
 
-This backend is designed with RESTful microservices architecture for managing the monthly payments from the members of a group. It is composed by one service that handles the authentication, one that handles members registration, and one that handles the transactions.
+This backend is a **monolithic REST API** built with Spring Boot for managing the monthly payments from the members of a group. It handles user authentication/authorization, member management, and payment tracking in a single unified service.
 
 
-| Service               | Responsability                                                  | Exposes API? |
-|-----------------------|-----------------------------------------------------------------|--------------|
-| `auth-service`        | Users management, authentication, authorization (JWT)           | ✅           |
-| `members-service`     | CRUD for group members                                          | ✅           |
-| `transactions-service`| Tracks and records monthly payments for group members           | ✅           |
-
+## Features
+- JWT-based user authentication/authorization
+- CRUD operations for group members, users and transactions
+- Secure, well-structured API following REST principles
 
 ## Entity Relationship Diagram (ERD)
 
