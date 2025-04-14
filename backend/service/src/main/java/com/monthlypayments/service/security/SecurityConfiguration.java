@@ -43,6 +43,7 @@ public class SecurityConfiguration {
                 .addFilterBefore(filter, UsernamePasswordAuthenticationFilter.class)
                 .authorizeHttpRequests(authorize -> authorize
                         .requestMatchers(HttpMethod.POST, "/auth/login").permitAll()
+                        .requestMatchers(HttpMethod.POST, "/user/register").hasRole("ADMIN")
                         .anyRequest().authenticated())
                 .build();
     }
