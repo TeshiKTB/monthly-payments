@@ -1,4 +1,4 @@
-package com.monthlypaayments.service;
+package com.monthlypayments.service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
